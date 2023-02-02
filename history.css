@@ -1,0 +1,202 @@
+/* CSS for the website header and sections */
+
+h1 {
+    font-family: 'header', sans-serif;
+    color: rgb(41, 41, 41);
+    font-size: 5.5em;
+}
+
+h2 {
+    font-family: 'header', sans-serif;
+    color: rgb(41, 41, 41);
+    font-size: 2.5em;
+}
+
+/* Block styles */
+.block-with-bg-img-1 {
+    background-color: #fff;
+    background-size: cover; /* scale the image to cover the entire block */
+    background-position: center; /* center the image within the block */
+    height: 700px; /* set the height of the block */
+    position: relative; /* allows the text overlay to be positioned absolutely */
+}
+
+.block-with-bg-img-2 {
+    background-color: rgb(255, 255, 255); /* add the linear gradient on top of the image */
+    background-size: cover; /* scale the image to cover the entire block */
+    background-position: center; /* center the image within the block */
+    height: 1000px; /* set the height of the block */
+    position: relative; /* allows the text overlay to be positioned absolutely */
+}
+
+.block-with-bg-img-2 h3{
+    font-family: 'header', sans-serif;
+    color: rgb(41, 41, 41);
+    font-size: 1.5em;
+}
+
+.block-with-bg-img-2 img{
+    width: 60%;
+    height: 80%;
+}
+
+.text-overlay {
+    position: absolute; /* position the overlay on top of the background image */
+    transform: translate(-50%, -50%); /* move the overlay up and left by 50% to center it */
+    color: #fff; /* text color */
+    text-align: left; /* center the text within the overlay */
+    padding: 20px;
+}
+
+.cta-btn {
+    display: inline-block;
+    color: #fff; /* button text color */
+    background-color: #000; /* button background color */
+    padding: 10px 20px; /* button padding */
+    border-radius: 5px; /* button border radius */
+    text-decoration: none; /* remove underline from link */
+    margin-top: 20px; /* add margin above the button */
+}
+
+.container {
+    max-width: 80%;
+    position: relative;
+    margin: auto;
+}
+
+.container2 {
+    max-width: 80%;
+    position: relative;
+    margin: auto;
+}
+
+.container3 {
+    display: flex;
+    max-width: 30%;
+    position: relative;
+    margin: auto;
+}
+
+.container-with-img {
+    display: flex;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('image/history.jpg'); /* add the linear gradient on top of the image */
+    background-size: cover; /* scale the image to cover the entire block */
+    background-position: center; /* center the image within the block */
+    height: 400px; /* set the height of the block */
+    max-width: 80%;
+    position: relative;
+    margin: auto;
+}
+
+/* Section styles */
+section {
+    padding: 20px 0;
+}
+
+
+section p{
+    color: rgb(129, 129, 129);
+    font-size: 1.5em;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+section h2 {
+    font-family: 'header', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    text-align: left;    
+}
+
+section h3 {
+    font-family: 'header', sans-serif;
+    color: whitesmoke;
+    font-size: 2em;
+    text-align: left;    
+}
+
+section li{
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+}
+
+#home {
+    background-color: #f0f0f0;
+}
+
+.cell {
+    color: whitesmoke;
+    width: 100%;
+    padding: 50px;
+}
+
+.cell h3{
+    font-size: 3em;
+    text-align: center;
+}
+
+.cell p{
+    font-size: 2em;
+    text-align: center;
+}
+
+/* Table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+td {
+    border-bottom: 1px solid black;
+    border-width: 4px;
+    padding: 0px;
+    vertical-align: top;
+}
+
+td p{
+    font-size: 1.3em;
+    color: rgb(41, 41, 41);
+}
+
+td li{
+    font-size: 1.3em;
+    color: rgb(41, 41, 41);
+}
+
+.col-1 {
+    width: 20%;
+}
+
+.col-2 {
+    width: 60%;
+}
+
+.col-2 p{
+    margin-right: 50px;
+}
+.col-2 li{
+    margin-right: 50px;
+}
+
+.col-3 {
+    width: 20%;
+}
+
+.col-3 h3{
+    margin-left: 25px;
+}
+
+.col-3 li{
+    margin-left: 25px;
+}
+
+.btn {
+    border: 1px solid white;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}

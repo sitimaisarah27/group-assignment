@@ -1,0 +1,138 @@
+/* CSS for the website header and sections */
+
+h1 {
+    font-family: 'header', sans-serif;
+    color: rgb(41, 41, 41);
+    font-size: 5.5em;
+}
+
+h2 {
+    font-family: 'header', sans-serif;
+    color: rgb(41, 41, 41);
+    font-size: 2.5em;
+}
+
+/* Block styles */
+.block-with-bg-img-1 {
+    background-color: #fff;
+    background-size: cover; /* scale the image to cover the entire block */
+    background-position: center; /* center the image within the block */
+    height: 700px; /* set the height of the block */
+    position: relative; /* allows the text overlay to be positioned absolutely */
+}
+
+.block-with-bg-img-2 {
+    background-color: rgb(255, 255, 255); /* add the linear gradient on top of the image */
+    background-size: cover; /* scale the image to cover the entire block */
+    background-position: center; /* center the image within the block */
+    height: 1200px; /* set the height of the block */
+    position: relative; /* allows the text overlay to be positioned absolutely */
+}
+
+.block-with-bg-img-2 h3{
+    font-family: 'header', sans-serif;
+    color: rgb(41, 41, 41);
+    font-size: 1.5em;
+}
+
+.block-with-bg-img-2 img{
+    width: 60%;
+    height: 80%;
+}
+
+.text-overlay {
+    position: absolute; /* position the overlay on top of the background image */
+    transform: translate(-50%, -50%); /* move the overlay up and left by 50% to center it */
+    color: #fff; /* text color */
+    text-align: left; /* center the text within the overlay */
+    padding: 20px;
+}
+
+.cta-btn {
+    display: inline-block;
+    color: #fff; /* button text color */
+    background-color: #000; /* button background color */
+    padding: 10px 20px; /* button padding */
+    border-radius: 5px; /* button border radius */
+    text-decoration: none; /* remove underline from link */
+    margin-top: 20px; /* add margin above the button */
+}
+
+.container {
+    max-width: 80%;
+    position: relative;
+    margin: auto;
+}
+
+.container2 {
+    max-width: 80%;
+    position: relative;
+    margin: auto;
+}
+
+.container2 img{
+    width: 700px;
+    height: 900px;
+}
+
+.container3 {
+    display: flex;
+    max-width: 30%;
+    position: relative;
+    margin: auto;
+}
+
+.container-with-img {
+    display: flex;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('image/exhibit.jpg'); /* add the linear gradient on top of the image */
+    background-size: cover; /* scale the image to cover the entire block */
+    background-position: center; /* center the image within the block */
+    height: 400px; /* set the height of the block */
+    max-width: 80%;
+    position: relative;
+    margin: auto;
+}
+
+/* Section styles */
+section {
+    padding: 20px 0;
+}
+
+
+section p{
+    color: rgb(129, 129, 129);
+    font-size: 1.5em;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+section h2 {
+    font-family: 'header', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    text-align: left;    
+}
+
+section h3 {
+    font-family: 'header', sans-serif;
+    color: whitesmoke;
+    font-size: 2em;
+    text-align: left;    
+}
+
+section li{
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+}
+
+#home {
+    background-color: #f0f0f0;
+}
+
+.btn {
+    border: 1px solid white;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}

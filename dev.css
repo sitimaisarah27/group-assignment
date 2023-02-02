@@ -1,0 +1,179 @@
+/* CSS for the website header and sections */
+
+h1 {
+    font-family: 'header', sans-serif;
+    color: rgb(41, 41, 41);
+    font-size: 5.5em;
+}
+
+h2 {
+    font-family: 'header', sans-serif;
+    color: rgb(41, 41, 41);
+    font-size: 2.5em;
+}
+
+/* Block styles */
+.block-with-bg-img-1 {
+    background-color: #fff;
+    background-size: cover; /* scale the image to cover the entire block */
+    background-position: center; /* center the image within the block */
+    height: 700px; /* set the height of the block */
+    position: relative; /* allows the text overlay to be positioned absolutely */
+}
+
+.block-with-bg-img-2 {
+    background-color: rgb(255, 255, 255); /* add the linear gradient on top of the image */
+    background-size: cover; /* scale the image to cover the entire block */
+    background-position: center; /* center the image within the block */
+    height: 800px; /* set the height of the block */
+    position: relative; /* allows the text overlay to be positioned absolutely */
+}
+
+.block-with-bg-img-2 h3{
+    font-family: 'header', sans-serif;
+    color: rgb(41, 41, 41);
+    font-size: 1.5em;
+}
+
+.cta-btn {
+    display: inline-block;
+    color: #fff; /* button text color */
+    background-color: #000; /* button background color */
+    padding: 10px 20px; /* button padding */
+    border-radius: 5px; /* button border radius */
+    text-decoration: none; /* remove underline from link */
+    margin-top: 20px; /* add margin above the button */
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+
+.container-with-img {
+    display: flex;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('image/dev.jpg'); /* add the linear gradient on top of the image */
+    background-size: cover; /* scale the image to cover the entire block */
+    background-position: center; /* center the image within the block */
+    height: 400px; /* set the height of the block */
+    max-width: 80%;
+    position: relative;
+    margin: auto;
+}
+
+.container2 {
+    max-width: 80%;
+    position: relative;
+    margin: auto;
+    display: flex;
+}
+  
+/* Section styles */
+section {
+    padding: 20px 0;
+}
+
+
+section p{
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+section h2 {
+    font-family: 'header', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    text-align: left;
+    margin-top: 10px;
+    
+}
+
+section li{
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+}
+
+#home {
+    background-color: #f0f0f0;
+}
+
+.cell {
+    color: #f0f0f0;
+    width: 50%;
+    padding: 50px;
+}
+
+.btn {
+    border: 1px solid white;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-item {
+    width: 350px;
+    height: 500px;
+    margin: 40px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.gallery-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease;
+}
+
+.img-container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-description {
+    font-family: 'header', sans-serif;
+    font-size: 1.5em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    text-align: center;
+}
+
+.gallery-item:hover .image-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sort-options {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.sort-options label {
+    margin-right: 10px;
+}
+
+.sort-options select {
+    width: 150px;
+    height: 30px;
+}
